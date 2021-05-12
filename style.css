@@ -61,6 +61,9 @@ nav {
     top: 22px;
 }
 
+main {
+    position: relative;
+}
 .shop-products {
     margin: 5%;
     position: relative;
@@ -98,13 +101,13 @@ nav {
 
 
 .block-items {
-    width: 90%;
-    margin-left: 5%;
+    max-width: 100%;
+    /* margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
-    position: relative;
+    margin-top: 5%; */
+    position: absolute;
     display: grid;
-    justify-content: left;
+    justify-content: center;
     grid-template-columns: repeat(2,35%);
     grid-template-rows: repeat(2,35%);
     grid-gap: 5% 5%;
