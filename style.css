@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: relative;
+    height: 4em;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px gray solid;
+}
+
+.hamburger img {
+    height: 35px;
+    width: 40px;
+    position: absolute;
+    left: 10px;
+    top: 15px
+}
+
+.logo img {
+    height: 35px;
+    width: 48px;
+    margin-left: 60px;
+    position: absolute;
+    top: 15px;
+}
+
+.search img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 70%;
+    top: 20px;
+}
+
+.cart img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 79%;
+    top: 20px;
+}
+
+.profile img{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 89%;
+    top: 22px;
+}
+
+.shop-products {
+    margin: 5%;
+    position: relative;
+    height: 60vh;
+}
+
+.shop-products h2 {
+    color: rgb(65, 63, 63);
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.shop-products p {
+    color: rgb(65, 63, 63);
+    margin-top: 1%;
+}
+
+.shop-products a {
+    letter-spacing: 4px;
+    color: #007AC9;
+    text-decoration: none;
+    margin-top: 3%;
+    position: absolute;
+    padding: 10px 15px 15px;
+    border: 2px solid #007AC9;
+    font-weight: 500;
+}
+
+.shop-products a:hover {
+    background-color: #007AC9;
+    color: white;
+    transition: .5s ease;
+}
+
+
+.block-items {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    position: relative;
+    display: grid;
+    justify-content: left;
+    grid-template-columns: repeat(2,35%);
+    grid-template-rows: repeat(2,35%);
+    grid-gap: 5% 5%;
+}
+
+/* .grid-item {
+    border: thin gray solid;
+    padding: 10px;
+} */
+
+.grid-item img{
+    background-position: center;
+    width: 100%;
+}
